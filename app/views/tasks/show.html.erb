@@ -1,0 +1,12 @@
+<div class= "mx-3">
+<br>
+<h1 class= "h2"><%= @task.title %> </h1>
+<br>
+<p class= "h4"><%= @task.details %> </p>
+<br>
+<p class= "h5"><%= @task.completed %> </p>
+<br>
+<%= link_to "My Tasks", tasks_path %>
+<br>
+<%= link_to "Update Task", edit_task_path(@task) %>
+</div>
